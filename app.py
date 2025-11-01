@@ -92,7 +92,7 @@ if uploaded_file is not None:
 
         # Area Chart
         st.subheader(" Area Chart - Numeric Columns")
-        st.area_chart(df[num_cols])  # Streamlit’s built-in chart (not saved)
+        st.area_chart(df[num_cols])  # Streamlit’s built-in chart 
 
     #  CATEGORICAL VISUALIZATIONS 
     if len(cat_cols) > 0:
@@ -157,3 +157,4 @@ if uploaded_file is not None:
 
 else:
     st.info(" Please upload a CSV file to begin visualization.")
+
