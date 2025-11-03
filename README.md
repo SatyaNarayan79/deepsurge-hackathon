@@ -1,3 +1,3 @@
-install all the requirment
-run after the virtual enviroment
-streamlit run app.py
+1.install all the requirment
+2.run after the virtual enviroment
+3.streamlit run app.py
